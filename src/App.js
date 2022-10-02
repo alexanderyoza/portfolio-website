@@ -13,24 +13,26 @@ function App() {
     Computer Science and I am captivated by the puzzle-like tasks 
     that come with my classes. During my free time, I enjoy playing beach
      volleyball, surfing and playing video games.`,
+     "hello",
+     "whats up"
   ];
   const skillsDesc = [
-    ""
+    "cardsec"
   ];
   const expDesc = [
-    ""
+    "cardsec"
   ];
   const projDesc = [
-    ""
+    "cardsec"
   ];
 
   return (
     <div className="App">
       <Top/>
-      <Card id = "about-me" name = {aboutDesc}/>
-      <Card id = "skills" name = {skillsDesc}/>
-      <Card id = "experience" name = {expDesc}/>
-      <Card id = "projects" name = {projDesc}/>
+      <Card id = "about-me" desc = {aboutDesc}/>
+      <Card id = "skills" desc = {skillsDesc}/>
+      <Card id = "experience" desc = {expDesc}/>
+      <Card id = "projects" desc = {projDesc}/>
     </div>
   );
 }

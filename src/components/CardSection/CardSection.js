@@ -1,9 +1,11 @@
 import './CardSection.css';
 
-function CardSection() {
+function CardSection(props) {
+
+
   return (
     <div> 
-        CardSection
+        {props.desc}
     </div>
   )
 }
