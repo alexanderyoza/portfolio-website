@@ -1,3 +1,15 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
-  font-size: 20px;
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #8BD8BD;
+}
+div{
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
 }

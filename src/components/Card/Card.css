@@ -1,0 +1,19 @@
+.card{
+    scroll-margin-top: 100px; 
+    display: block;
+    font-size: 20px;
+    color: #243665;
+    background-color: white;
+    width: 80vw;
+    height: fit-content;
+    margin: 30px 10vw;
+    border-radius: 25px;
+    box-shadow: 8px 8px 5px #243665;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 40px 0;
+}

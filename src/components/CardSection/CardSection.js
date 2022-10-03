@@ -3,23 +3,38 @@ import './CardSection.css';
 function CardSection(props) {
 
   const image = () => {
-    if (props.info[2] !== 'none'){
+    if (props.info[3] !== 'none'){
       return (
-        <div>
-          <img src={props.info[2]} alt="img" />
+        <div className='cardsect-img-cont'>
+          <img className='cardsect-img' src={props.info[3]} style={{height: props.info[4]}} alt="img" />
         </div>
       );
+    } else {
+      return <noscript></noscript>;
     }
   }
+
+  const subheader = () => {
+    if (props.info[1] !== 'none'){
+      return (
+        <div className='cardsect-subheader'>
+          {props.info[1]}
+        </div>
+      );
+    } else {
+      return <noscript></noscript>;
+    }
+  };
 
   return (
     <div> 
       {image()}
-      <div>
+      <div className='cardsect-header'>
         {props.info[0]}
       </div>
-      <div>
-        {props.info[1]}
+      {subheader()}
+      <div className='cardsect-text'>
+        {props.info[2]}
       </div>
     </div>
   )

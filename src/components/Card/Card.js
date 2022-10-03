@@ -5,7 +5,10 @@ function Card(props) {
 
 
   return (
-    <div>
+    <div className='card' id={props.id}>
+      <div className='card-title'>
+        {props.title}
+      </div>
       {props.info.map((value) => {
         return (
           <CardSection info = {value}/>
