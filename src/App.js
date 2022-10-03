@@ -27,7 +27,7 @@ function App() {
       a student at the University of California San Diego. 
       I am motivated by my desire to learn and improve as 
       I believe there is too much information in this world for 
-      someone ever stop exploring it. I am pursing a degree in 
+      someone ever stop exploring. I am pursing a degree in 
       Computer Science and I am captivated by the puzzle-like tasks 
       that come with my classes. During my free time, I enjoy playing beach
       volleyball, surfing and playing video games.`,
@@ -106,14 +106,35 @@ function App() {
   ];
   const project = [
     [
-
+      'Workout Planner Website',
+      'MongoDB, Express, React, Node',
+      'none'
     ],
     [
-      
+      'Dental Practice Website',
+      'Angular',
+      'none'
     ],
     [
-
+      'Affordable Housing Development Website',
+      'HTML, CSS, Javascript',
+      'none'
+    ],
+    [
+      'Air Hockey Computer Game',
+      'Python, PyGame module',
+      'none'
     ]
+  ];
+  const contact = [
+    [
+      'Contact Info',
+      `
+      Email: alex.yoza@gmail.com
+      Phone Number: (623)399-2062
+      `,
+      'none'
+    ],
   ];
 
   return (
@@ -123,6 +144,7 @@ function App() {
       <Card id = "skills" info = {skill}/>
       <Card id = "experience" info = {experience}/>
       <Card id = "projects" info = {project}/>
+      <Card id = "contact" info = {contact}/>
     </div>
   );
 }

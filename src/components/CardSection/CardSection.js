@@ -2,12 +2,19 @@ import './CardSection.css';
 
 function CardSection(props) {
 
+  const image = () => {
+    if (props.info[2] !== 'none'){
+      return (
+        <div>
+          <img src={props.info[2]} alt="img" />
+        </div>
+      );
+    }
+  }
 
   return (
     <div> 
-      <div>
-        <img src={props.info[2]} alt="img" />
-      </div>
+      {image()}
       <div>
         {props.info[0]}
       </div>
