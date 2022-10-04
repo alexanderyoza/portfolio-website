@@ -8,7 +8,8 @@
 }
 
 .cardsect-img{
-    height: 200px;
+    width: 50vw;
+    max-width: 500px;
 }
 
 .cardsect-header{

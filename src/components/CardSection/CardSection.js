@@ -6,7 +6,7 @@ function CardSection(props) {
     if (props.info[3] !== 'none'){
       return (
         <div className='cardsect-img-cont'>
-          <img className='cardsect-img' src={props.info[3]} style={{height: props.info[4]}} alt="img" />
+          <img className='cardsect-img' src={props.info[3]} alt="img" />
         </div>
       );
     } else {
