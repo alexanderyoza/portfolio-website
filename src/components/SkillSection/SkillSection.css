@@ -1,0 +1,23 @@
+.skillsect{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding: 0;
+    width: 250px;
+}
+
+.skillsect-img-cont{
+    text-align: center;
+    
+}
+
+.skillsect-img{
+    height: 200px;
+}
+
+.skillsect-header{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}

@@ -28,3 +28,21 @@
     font-size: 20px;
     margin: 40px 10vw;
 }
+
+.cardsect-link{
+    color: #31467b;
+
+}
+
+.cardsect-link:hover{
+    color: #8BD8BD;
+}
+
+.cardsect-contact{
+    display: flex;
+    justify-content: center;
+}
+
+.cardsect-contact-cont{
+    text-align: left;
+}
