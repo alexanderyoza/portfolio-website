@@ -146,7 +146,7 @@ function App() {
       <div>
         <ul>
           <li>
-            Website using a MERN stack that can will design a workout 
+            Website using a MERN stack that can design a workout 
             split based on the chosen sport and amount of desired workouts per week.
           </li>
           <li>
