@@ -15,7 +15,7 @@
 .cardsect-header{
     margin-top: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: calc(18px + 1vw);
 }
 
 .cardsect-subheader{

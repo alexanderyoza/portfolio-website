@@ -23,11 +23,12 @@
 
 .top-left{
     display: flex;
+    align-items: center;
 }
 
 .top-dropdown{
     height: 40px;
-    width: 80px;
+    width: 60px;
     display: inline;
     position: relative;
 }
@@ -91,8 +92,8 @@
     display: inline-flex;
     align-items: center;
     margin: 0 12px;
-    padding-left: 24px;
-    font-size: 36px;
+    padding-left: 12px;
+    font-size: calc(20px + 1vw);
     color: #243665;
 }
 
