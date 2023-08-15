@@ -1,18 +1,17 @@
 .card{
     scroll-margin-top: 100px; 
     display: block;
-    font-size: 20px;
     color: #243665;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.9);
     width: 80vw;
+    max-width: 1500px;
     height: fit-content;
     margin: 40px 10vw;
     border-radius: 25px;
-    box-shadow: 8px 8px 5px #243665;
 }
 
 .card-title{
-    font-size: 30px;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     margin: 20px 0 40px 0;

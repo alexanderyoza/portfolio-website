@@ -1,10 +1,3 @@
-.top-behind{
-    position: relative;
-    height: 50px;
-    width: 100vw;
-    z-index: 0;
-}
-
 .top-container{
     display: flex;
     position: fixed;
@@ -16,75 +9,7 @@
     padding-top: 8px;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    z-index: 1;
-}
-
-
-.top-left{
-    display: flex;
-    align-items: center;
-}
-
-.top-dropdown{
-    height: 40px;
-    width: 60px;
-    display: inline;
-    position: relative;
-}
-
-
-.top-dropdown-icon{
-    display: inline-flex;
-    height: 100%;
-    align-items: center;
-    padding-left: 24px;
-    margin: 0;
-}
-
-.top-links{
-    display: none;
-    padding-top: 14px;
-    position: relative;
-    background-color: white;
-    font-size: 20px;
-    height: fit-content;
-    flex-direction: column;
-    width: 200px;
-    z-index: 2;
-}
-
-.top-links2{
-    display: block;
-    padding-top: 14px;
-    position: relative;
-    background-color: white;
-    font-size: 20px;
-    height: fit-content;
-    flex-direction: column;
-    width: 200px;
-    z-index: 2;
-}
-
-.top-link-container{
-    display: flex;
-    width: 100%;
-    height: 40px;
-}
-
-.top-link{
-    display: flex;
-    text-decoration: none;
-    padding-left: 24px;
-    width: 100%;
-    color: #243665;
-    align-items: center;
-}
-
-
-.top-link:hover{
-    background-color: #243665;
-    color: white;
+    height: 100px;
 }
 
 .top-name{
@@ -93,7 +18,7 @@
     align-items: center;
     margin: 0 12px;
     padding-left: 12px;
-    font-size: calc(20px + 1vw);
+    font-size: max(32px, min(128px, 3vw));
     color: #243665;
 }
 
@@ -102,24 +27,23 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    font-size: 34px;
 }
 
 .top-linkedin{
     display: flex;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     padding-right: 24px;
 }
 
 .top-github{
     display: flex;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     padding-right: 24px;
 }
 
 .top-img{
-    height: 30px;
-    width: 30px;
+    height: 100%;
+    width: 100%;
 }

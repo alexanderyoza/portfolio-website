@@ -9,11 +9,13 @@
 
 .cardsect-img{
     width: 50vw;
-    max-width: 500px;
+    max-width: 400px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .cardsect-header{
-    margin-top: 30px;
+    margin: 30px 10vw 0px;
     text-align: center;
     font-size: calc(18px + 1vw);
 }
@@ -21,12 +23,12 @@
 .cardsect-subheader{
     margin-top: 20px;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.4em;
 }
 
 .cardsect-text{
     text-align: left;
-    font-size: 20px;
+    font-size: 1.2em;
     margin: 40px 10vw;
 }
 

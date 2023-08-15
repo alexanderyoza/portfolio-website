@@ -3,10 +3,9 @@ html{
 }
 
 body {
-  font-size: 0;
   margin: 0;
   padding: 0;
-  background-color: #8BD8BD;
+  background-color: white;
 }
 div{
   background-color: transparent;

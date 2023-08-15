@@ -4,16 +4,16 @@
     margin-right: 40px;
     margin-bottom: 40px;
     padding: 0;
-    width: 250px;
-}
-
-.skillsect-img-cont{
-    text-align: center;
-    
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .skillsect-img{
-    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    height: 100px;
 }
 
 .skillsect-header{
